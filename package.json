@@ -1,0 +1,15 @@
+{
+  "name": "provadojo",
+  "version": "1.0.0",
+  "description": "prova",
+  "main": "index.js",
+  "dependencies": {
+    "dojo": "^1.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
