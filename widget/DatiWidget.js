@@ -5,7 +5,7 @@ define([
     "dojo/dom-class",
     "dojo/text!./templates/DatiWidget.html"
 ], function (declare, _WidgetBase, _TemplatedMixin, domClass, template) {
-    return declare([_WidgetBase, _TemplatedMixin], {
+    return declare("Valute",[_WidgetBase, _TemplatedMixin], {
         valuta: "nessuna",
         valore: 0,
         trend: "",
@@ -24,6 +24,9 @@ define([
             else {
                 domClass.add(this.nodoValore, "red");
             }
+        },
+        closeWidget: function(){
+            this.destroy();
         }
     });
 });

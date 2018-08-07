@@ -7,6 +7,28 @@
 .widgetDati:hover {
     background-color: #eee;
 }
+.btnClose{
+    font-family: cursive;
+    font-size: small;
+    color: #444;
+    padding: 2px 5px;
+}
+.btnClose:hover{
+    color: #bd2b3c;
+    cursor: pointer;
+}
+.widget-header{
+    position: relative;
+}
+
+.inLineLeft,.inLineRight{
+    position: absolute;
+    display: inline;
+}
+.inLineRight{
+    right: 5px;
+    
+}
 .green{
     color: green
 }
