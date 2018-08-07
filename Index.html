@@ -1,34 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
-    <meta charset="utf-8">
-    <title>Test Dojo</title>
+	<script src="dojoConfig.js"></script>
+    <script src="node_modules/dojo/dojo.js"></script>   
+    <link rel="stylesheet" href="style.css" media="screen">
 </head>
 <body>
-    <h1 id="greeting">Hello</h1>
-    <script>
-        var dojoConfig = {
-            async: true,
-            dojoBlankHtmlUrl: "/node_modules/dojo/resources/blank.html",
-            baseUrl: './node_modules',
-            packages: [
-                {name: "demo", location: "../demo"},
-                {name: "dojo", location: "./dojo"}
-            ]
-        };
-    </script>
-    <script src="node_modules/dojo/dojo.js"></script>   
-    <script> 
-        require([
-            'demo/test'
-        ], function (test){
-            test.setVar('greeting', 'Welcommeeee!');
-            setTimeout(function () {
-                test.restoreVar('greeting');
-            }, 3000);
-        });
-    </script>
-    <script src="/demo/ajax.js"></script>
-    <script src="/demo/mixin.js"></script>
+    <div id="containerWidgetDati"></div>
+    <script src="contenitoreWidgetDati.js"></script>
 </body>
 </html>

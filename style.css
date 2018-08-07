@@ -1,25 +1,15 @@
-
-#appLayout {
-    height: 100%;
+.widgetDati{
+    font-weight: bold;
+    background-color: #ddd;
+    padding: 1px 15px;
+    margin: 2px;
 }
-#leftCol {
-    width: 14em;
+.widgetDati:hover {
+    background-color: #eee;
 }
-
-#appLayout .mainHeading {
-    margin: 0;
+.green{
+    color: green
 }
-
-.claro .demoLayout .edgePanel {
-    background-color: #d0e9fc;
-}
-
-#viewsChart {
-	width: 550px; 
-	height: 550px;
-}
-.topLink {
-    position: absolute;
-    top: 0;
-    left: -200px;
+.red{
+    color:red
 }
